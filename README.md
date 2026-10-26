@@ -1,1 +1,3 @@
-# static-verification
+# SVV Lab Task – Static Verification of C++ Code
+
+This repository contains `game.cpp`, a small text-based monster battle game, reviewed as part of a Software Verification & Validation (SVV) lab task. A manual static code review was performed (without executing the program) to identify defects across categories such as initialization, pointers, arrays/buffers, loops, arithmetic, control flow, function calls, and classes. The findings are documented in two files: `review-checklist.md`, which summarizes the review status (OK/Issue) for each category, and `code-review-report.md`, which provides a detailed, line-by-line breakdown of each defect along with its cause, proposed fix, and severity.
